@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = 'https://naviq-backend.onrender.com';
 
 const DB_SERVICES = [
   { id: 'passport', title: 'Apply for Passport', desc: 'New passport, renewal, documents, fees and more.', icon: '🛂', bg: 'bg-blue', category: 'Travel' },

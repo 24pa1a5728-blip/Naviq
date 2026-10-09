@@ -1,0 +1,33 @@
+
+# Secrets and environment files
+.env
+backend/.env
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# macOS generated files
+.DS_Store
+backend/data/users.db
+
+# Never upload dependencies
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local database
+backend/data/users.db
